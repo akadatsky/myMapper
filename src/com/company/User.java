@@ -2,7 +2,9 @@ package com.company;
 
 public class User {
 
+    @Column("first_name")
     private String firstName;
+
     private String secondName;
     private int age;
 
